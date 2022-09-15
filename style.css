@@ -535,7 +535,7 @@ footer a {
 }
 
 footer .copyright {
-  position: absolute;
+  /* position: absolute; */
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -783,9 +783,9 @@ footer .follow a:hover:nth-child(5) i {
     font-size: 14px;
   }
 
-#banner3 .banner-box h2 {
-  font-size: 18px;
-}
+  #banner3 .banner-box h2 {
+    font-size: 18px;
+  }
 }
 
 @media (min-width: 963px) and (max-width: 1024px) {
@@ -809,7 +809,7 @@ footer .follow a:hover:nth-child(5) i {
   #navbar li a.active::after {
     width: 54%;
     height: 2px;
-    left:18px;
+    left: 18px;
   }
 
   #navbar li a.active,
@@ -999,7 +999,7 @@ footer .follow a:hover:nth-child(5) i {
     width: 64%;
     height: 2px;
     left: 12px;
-}
+  }
 
   #navbar li {
     padding: 0px 10px;
@@ -1229,14 +1229,14 @@ footer .follow a:hover:nth-child(5) i {
   }
 }
 
-@media (max-width:659px){
+@media (max-width: 659px) {
   .section-p1 {
     padding: 40px 20px;
   }
 
   #navbar li a.active::after {
     left: 9px;
-}
+  }
 
   #navbar li {
     padding: 0px 8px;
@@ -1258,7 +1258,7 @@ footer .follow a:hover:nth-child(5) i {
 
   h1 {
     line-height: 40px;
-}
+  }
 
   h2 {
     font-size: 30px;
@@ -1290,16 +1290,16 @@ footer .follow a:hover:nth-child(5) i {
     padding: 15px 20px 10px 20px;
     border-radius: 20px;
     font-size: 35px;
-}
+  }
 
-#product1 .pro {
-  width: 48%;
-  min-height: 250px;
-  padding: 16px 20px;
-  border-radius: 25px;
-  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
-  margin: 15px 0;
-}
+  #product1 .pro {
+    width: 48%;
+    min-height: 250px;
+    padding: 16px 20px;
+    border-radius: 25px;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+  }
 
   #product1 .pro .cart {
     width: 35px;
@@ -1311,7 +1311,7 @@ footer .follow a:hover:nth-child(5) i {
     right: 10%;
   }
 
-  #banner{
+  #banner {
     height: 20vh;
     margin-bottom: 0;
   }
@@ -1324,12 +1324,12 @@ footer .follow a:hover:nth-child(5) i {
   #sm-banner h4 {
     font-size: 12px;
     font-weight: 400;
-}
+  }
 
-#sm-banner h2 {
-  font-size: 30px;
-  font-weight: 600;
-}
+  #sm-banner h2 {
+    font-size: 30px;
+    font-weight: 600;
+  }
   #sm-banner {
     padding: 0 20px;
   }
@@ -1368,7 +1368,7 @@ footer .follow a:hover:nth-child(5) i {
     background-color: #041e42;
     position: relative;
     height: 20vh;
-}
+  }
 
   #newsletter h4 {
     position: absolute;
@@ -1380,12 +1380,11 @@ footer .follow a:hover:nth-child(5) i {
     font-size: 15px;
     position: absolute;
     top: 60px;
-    left:120px
+    left: 120px;
   }
-
 }
 
-@media (max-width:420px){
+@media (max-width: 420px) {
   .section-p1 {
     padding: 40px 20px;
   }
@@ -1393,11 +1392,11 @@ footer .follow a:hover:nth-child(5) i {
   #header {
     padding: 10px 10px;
     left: 0;
-}
+  }
 
-#header img{
-  width: 50%;
-}
+  #header img {
+    width: 50%;
+  }
 
   #hero h4 {
     padding-bottom: 8px;
@@ -1406,7 +1405,7 @@ footer .follow a:hover:nth-child(5) i {
 
   h1 {
     line-height: 20px;
-}
+  }
 
   h2 {
     font-size: 20px;
@@ -1417,7 +1416,7 @@ footer .follow a:hover:nth-child(5) i {
     font-size: 20px;
     line-height: 1.5;
   }
-  
+
   #feature .fe-box {
     padding: 30px 5px;
     width: 90%;
@@ -1428,30 +1427,30 @@ footer .follow a:hover:nth-child(5) i {
     padding: 15px 20px 10px 20px;
     border-radius: 20px;
     font-size: 15px;
-}
+  }
 
-p {
-  font-size: 13px;
-  margin: 15px 0px 0px;
-}
+  p {
+    font-size: 13px;
+    margin: 15px 0px 0px;
+  }
 
-#product1 .pro {
-  width: 48%;
-  min-height: 200px;
-  padding: 5px 7px;
-  border-radius: 10px;
-  margin: 15px 0;
-}
+  #product1 .pro {
+    width: 48%;
+    min-height: 200px;
+    padding: 5px 7px;
+    border-radius: 10px;
+    margin: 15px 0;
+  }
 
-#product1 .pro img {
-  border-radius: 10px;
-}
+  #product1 .pro img {
+    border-radius: 10px;
+  }
 
-#product1 .pro-container .des i {
-  font-size: 7px;
-  padding: 0;
-  margin: 0;
-}
+  #product1 .pro-container .des i {
+    font-size: 7px;
+    padding: 0;
+    margin: 0;
+  }
 
   #product1 .pro .cart {
     width: 20px;
@@ -1463,7 +1462,7 @@ p {
     right: 5%;
   }
 
-  #banner{
+  #banner {
     height: 20vh;
     margin-bottom: 0;
   }
@@ -1475,44 +1474,43 @@ p {
 
   #banner h4 {
     font-size: 10px;
-}
+  }
 
-#banner button.normal {
-  font-size: 10px;
-  padding: 7px 15px;
-}
+  #banner button.normal {
+    font-size: 10px;
+    padding: 7px 15px;
+  }
 
+  #sm-banner {
+    padding: 0 20px;
+  }
 
-#sm-banner {
-  padding: 0 20px;
-}
-
-#sm-banner .banner-box {
-  margin-bottom: 15px;
-  height: 20vh;
-  padding: 50px 15px;
-}
+  #sm-banner .banner-box {
+    margin-bottom: 15px;
+    height: 20vh;
+    padding: 50px 15px;
+  }
 
   #sm-banner h4 {
     font-size: 10px;
     font-weight: 200;
-}
+  }
 
-#sm-banner h2 {
-  font-size: 20px;
-  font-weight: 400;
-}
+  #sm-banner h2 {
+    font-size: 20px;
+    font-weight: 400;
+  }
 
-#sm-banner span{
-  font-size: 10px;
-  font-weight: 200;
-}
+  #sm-banner span {
+    font-size: 10px;
+    font-weight: 200;
+  }
 
-#sm-banner button{
-  font-size: 10px;
-  font-weight: 200;
-  padding: 5px;
-}
+  #sm-banner button {
+    font-size: 10px;
+    font-weight: 200;
+    padding: 5px;
+  }
 
   #banner3 {
     padding: 40px 10px;
@@ -1536,7 +1534,7 @@ p {
 
   #newsletter {
     height: 20vh;
-}
+  }
 
   #newsletter h4 {
     font-size: 5px;
@@ -1550,7 +1548,7 @@ p {
     font-size: 7px;
     position: absolute;
     top: 40px;
-    left:25%;
+    left: 25%;
   }
 
   #newsletter .form {
@@ -1563,35 +1561,146 @@ p {
     padding: 0 1.5em;
     font-size: 7px;
     width: 100%;
+  }
+
+  #newsletter button {
+    padding: 0 1.75em;
+    font-size: 5px;
+  }
+
+  footer h4 {
+    font-size: 15px;
+    padding-bottom: 12px;
+  }
+
+  footer p {
+    margin-bottom: 5px;
+    font-size: 10px;
+  }
+
+  footer a {
+    font-size: 10px;
+    margin-bottom: 5px;
+  }
+
+  footer .install .row img:nth-child(1) {
+    width: 30%;
+  }
+
+  footer .install img {
+    width: 50%;
+    margin: 10px 0 15px 0;
+  }
 }
 
-#newsletter button {
-  padding: 0 1.75em;
-  font-size: 5px;
+/* Shop page */
+
+#prodetails {
+  display: flex;
+  margin-top: 20px;
 }
 
-footer h4 {
-  font-size: 15px;
-  padding-bottom: 12px;
+#page-header {
+  background-image: url("img/banner/b1.jpg");
+  /* background-repeat: no-repeat; */
+  background-repeat: repeat-x;
+  width: 100%;
+  height: 40vh;
+  block-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 14px;
 }
 
-footer p {
-  margin-bottom: 5px;
-  font-size: 10px;
+#page-header h2,
+#page-header p {
+  color: #fff;
 }
 
-footer a {
-  font-size: 10px;
-  margin-bottom: 5px;
+#pagination {
+  text-align: center;
 }
 
-footer .install .row img:nth-child(1) {
-  width: 30%;
+#pagination a {
+  text-decoration: none;
+  background-color: #088178;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 600;
 }
 
-footer .install img {
-  width: 50%;
-  margin: 10px 0 15px 0;
+#pagination a i {
+  font-size: 16px;
+  font-weight: 600;
 }
 
+#prodetails .single-pro-img {
+  width: 40%;
+  margin-right: 50px;
+}
+
+.small-img-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-img-col {
+  flex-basis: 24%;
+  cursor: pointer;
+}
+
+#prodetails .single-pro-details {
+  width: 40%;
+  padding-top: 30px;
+}
+
+#prodetails .single-pro-details h4 {
+  padding: 40px 0px 20px 0;
+}
+
+#prodetails .single-pro-details h2 {
+  font-size: 30px;
+}
+
+#prodetails .single-pro-details .se-in-bu {
+  display: flex;
+}
+
+#prodetails .single-pro-details select {
+  display: block;
+  padding: 10px 10px;
+  margin-top: 7px;
+  margin-bottom: 10px;
+}
+
+#prodetails .single-pro-details input {
+  margin: 7px 10px 0 20px;
+  padding-left: 10px;
+  width: 50px;
+  height: 38px;
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+#prodetails .single-pro-details input:focus {
+  outline: none;
+}
+
+#prodetails .single-pro-details .normal {
+  background-color: #088178;
+  color: #fff;
+  font-size: 16px;
+  margin: 0;
+  padding: 10px 20px;
+}
+
+#prodetails .single-pro-details .normal:active {
+  box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.2);
+}
+
+#prodetails .single-pro-details span {
+  line-height: 25px;
 }
