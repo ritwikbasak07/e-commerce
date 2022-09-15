@@ -93,6 +93,15 @@ body {
   transition: 0.2s ease;
 }
 
+#close {
+  display: none;
+}
+
+#mobile {
+  display: none;
+  align-items: center;
+}
+
 #navbar li a.active::after {
   content: "";
   width: 60%;
@@ -103,7 +112,7 @@ body {
   left: 20px;
 }
 
-.pointer{
+.pointer {
   cursor: pointer;
   color: #088178;
 }
@@ -340,7 +349,7 @@ button.white {
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 }
 
-#sm-banner a{
+#sm-banner a {
   text-decoration: none;
   min-width: 49%;
 }
@@ -394,7 +403,7 @@ button.white {
   background-image: url(img/banner/b10.jpg);
 }
 
-#banner3{
+#banner3 {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -415,29 +424,28 @@ button.white {
   margin-bottom: 50px;
 }
 
-#banner3 .banner-box2{
+#banner3 .banner-box2 {
   background-image: url("img/banner/b4.jpg");
 }
 
-#banner3 .banner-box3{
+#banner3 .banner-box3 {
   background-image: url("img/banner/b18.jpg");
 }
 
-
-#banner3 .banner-box h2{
+#banner3 .banner-box h2 {
   color: #fff;
   font-weight: 900;
   font-size: 36px;
 }
 
-#banner3 .banner-box h3{
+#banner3 .banner-box h3 {
   padding-top: 15px;
   color: #ec544e;
   font-weight: 700;
   font-size: 29px;
 }
 
-#newsletter{
+#newsletter {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -448,29 +456,29 @@ button.white {
   background-color: #041e42;
 }
 
-#newsletter h4{
+#newsletter h4 {
   padding-top: 20px;
   font-size: 40px;
   font-weight: 700;
   color: #fff;
 }
 
-#newsletter p{
+#newsletter p {
   font-size: 30px;
   font-weight: 400;
   color: #818ea0;
 }
 
-#newsletter p span{
+#newsletter p span {
   color: #ffbd27;
 }
 
-#newsletter .form{
+#newsletter .form {
   display: flex;
   width: 32%;
 }
 
-#newsletter input{
+#newsletter input {
   height: 3.125rem;
   padding: 0 1.25em;
   font-size: 20px;
@@ -480,7 +488,7 @@ button.white {
   outline: none;
 }
 
-#newsletter button{
+#newsletter button {
   padding: 0 1.25em;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
@@ -490,35 +498,35 @@ button.white {
   border: 1px solid #088178;
 }
 
-footer{
+footer {
   position: relative;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-footer .col{
+footer .col {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   margin-bottom: 20px;
 }
 
-footer .logo{
-margin-bottom: 30px;
+footer .logo {
+  margin-bottom: 30px;
 }
 
-footer h4{
+footer h4 {
   font-size: 27px;
   padding-bottom: 20px;
 }
 
-footer p{
+footer p {
   font-size: 23px;
-  margin: 0  0 8px 0;
+  margin: 0 0 8px 0;
 }
 
-footer a{
+footer a {
   font-size: 23px;
   text-decoration: none;
   color: #222;
@@ -526,7 +534,7 @@ footer a{
   transition: 0.2s ease;
 }
 
-footer .copyright{
+footer .copyright {
   position: absolute;
   width: 100vw;
   display: flex;
@@ -534,70 +542,69 @@ footer .copyright{
   top: 90%;
 }
 
-footer .follow{
+footer .follow {
   margin-top: 20px;
 }
 
-footer .follow i{
+footer .follow i {
   position: relative;
   margin: 0 3px;
   color: #000;
   cursor: pointer;
 }
 
-footer .install .row img{
+footer .install .row img {
   background-color: rgb(225, 26, 26);
   border: 1px solid #088178;
   border-radius: 6px;
 }
 
-footer .install .row img:hover{
+footer .install .row img:hover {
   filter: invert(90);
 }
 
-footer .install .row img:nth-child(1){
+footer .install .row img:nth-child(1) {
   margin-right: 6px;
 }
 
-footer .install img{
+footer .install img {
   margin: 10px 0 15px 0;
 }
 
-footer a:hover{
+footer a:hover {
   color: #088178;
 }
 
-footer .follow a:hover:nth-child(1) i{
+footer .follow a:hover:nth-child(1) i {
   color: #1877f2;
 }
 
-footer .follow a:hover:nth-child(2) i{
+footer .follow a:hover:nth-child(2) i {
   color: #fff;
   background-color: #222;
   border-radius: 50%;
 }
 
-footer .follow a:hover:nth-child(3) i{
+footer .follow a:hover:nth-child(3) i {
   color: #007bb6;
 }
 
-footer .follow a:hover:nth-child(4) i{
-  color:#e71b22;
+footer .follow a:hover:nth-child(4) i {
+  color: #e71b22;
 }
-footer .follow a:hover:nth-child(5) i{
-color:#ff0000;
+footer .follow a:hover:nth-child(5) i {
+  color: #ff0000;
 }
 
 /* Media query */
 
-@media (min-width:1620px) and (max-width:1800px) {
+@media (min-width: 1620px) and (max-width: 1800px) {
   #feature .fe-box {
     width: 220px;
   }
 }
 
-@media (min-width:1281px) and (max-width:1619px){
-
+@media (min-width: 1281px) and (max-width: 1619px) {
   #feature .fe-box {
     width: 200px;
   }
@@ -606,38 +613,38 @@ color:#ff0000;
     padding: 25px 50px 25px 80px;
   }
 
-  #hero{
+  #hero {
     padding: 0 100px;
     background-position: 60% 15%;
   }
 
-  #hero h4{
+  #hero h4 {
     font-size: 22px;
     padding-bottom: 7px;
   }
 
-  #hero h2{
+  #hero h2 {
     font-size: 47px;
   }
 
-  #hero h1{
+  #hero h1 {
     font-size: 55px;
   }
-    #hero p{
+  #hero p {
     font-size: 20px;
     margin: 10px 0;
   }
 
-  #banner h4{
+  #banner h4 {
     font-size: 23px;
   }
 
-  #banner h2{
+  #banner h2 {
     font-size: 47px;
     padding: 20px 0;
   }
 
-  #banner .normal{
+  #banner .normal {
     font-size: 23px;
   }
 
@@ -645,17 +652,17 @@ color:#ff0000;
     min-width: 28%;
   }
 
-  #banner3 .banner-box h2{
+  #banner3 .banner-box h2 {
     font-size: 30px;
   }
 
-  #banner3 .banner-box h3{
+  #banner3 .banner-box h3 {
     font-size: 25px;
     padding-top: 10px;
   }
 }
 
-@media (min-width:1281px) and (max-width:1369px){
+@media (min-width: 1281px) and (max-width: 1369px) {
   #feature .fe-box {
     width: 170px;
   }
@@ -665,36 +672,35 @@ color:#ff0000;
     padding: 20px;
   }
 
-  #sm-banner a{
+  #sm-banner a {
     text-decoration: none;
     min-width: 47%;
   }
 }
 
-@media (min-width:1025px) and (max-width:1280px){
-
+@media (min-width: 1025px) and (max-width: 1280px) {
   #header {
     padding: 25px 50px 25px 80px;
   }
 
-  #hero{
+  #hero {
     padding: 0 100px;
     background-position: 60% 15%;
   }
 
-  #hero h4{
+  #hero h4 {
     font-size: 22px;
     padding-bottom: 7px;
   }
 
-  #hero h2{
+  #hero h2 {
     font-size: 47px;
   }
 
-  #hero h1{
+  #hero h1 {
     font-size: 55px;
   }
-    #hero p{
+  #hero p {
     font-size: 20px;
     margin: 10px 0;
   }
@@ -707,20 +713,20 @@ color:#ff0000;
     width: 15%;
   }
 
-  #banner h4{
+  #banner h4 {
     font-size: 23px;
   }
 
-  #banner h2{
+  #banner h2 {
     font-size: 47px;
     padding: 20px 0;
   }
 
-  #banner .normal{
+  #banner .normal {
     font-size: 23px;
   }
 
-  #sm-banner a{
+  #sm-banner a {
     text-decoration: none;
     min-width: 44%;
   }
@@ -729,12 +735,12 @@ color:#ff0000;
     font-size: 30px;
     font-weight: 400;
   }
-  
+
   #sm-banner h2 {
     font-size: 60px;
     font-weight: 600;
   }
-  
+
   #sm-banner span {
     font-size: 16px;
     font-weight: 500;
@@ -744,63 +750,70 @@ color:#ff0000;
     min-width: 28%;
   }
 
-  #banner3 .banner-box h2{
+  #banner3 .banner-box h2 {
     font-size: 25px;
   }
 
-  #banner3 .banner-box h3{
+  #banner3 .banner-box h3 {
     font-size: 20px;
     padding-top: 10px;
   }
 }
 
-@media (min-width:1025px) and (max-width:1200px){
+@media (min-width: 1025px) and (max-width: 1200px) {
   #feature .fe-box h6 {
     font-size: 12px;
     padding: 10px 12px 10px 9px;
   }
 
-  #sm-banner a{
+  #sm-banner a {
     text-decoration: none;
-    min-width: 40%;
+    min-width: 47%;
   }
 
   #sm-banner h4 {
     font-size: 25px;
   }
-  
+
   #sm-banner h2 {
     font-size: 48px;
   }
-  
+
   #sm-banner span {
     font-size: 14px;
   }
+
+#banner3 .banner-box h2 {
+  font-size: 18px;
+}
 }
 
-@media (min-width:963px) and (max-width:1024px){
+@media (min-width: 963px) and (max-width: 1024px) {
   .section-p1 {
     padding: 30px 40px;
   }
-  
+
   .section-m1 {
     margin: 30px 0;
   }
 
-  #navbar li a,#navbar li{
+  #navbar li a,
+  #navbar li {
     font-size: 15px;
-  } 
+  }
 
-  #navbar li{
+  #navbar li {
     padding: 0 15px;
   }
 
   #navbar li a.active::after {
     width: 54%;
     height: 2px;
+    left:18px;
   }
 
-  #navbar li a.active,#navbar li.active{
+  #navbar li a.active,
+  #navbar li.active {
     font-size: 20px;
   }
 
@@ -808,26 +821,26 @@ color:#ff0000;
     padding: 25px 30px 25px 50px;
   }
 
-  #hero{
+  #hero {
     padding: 0 70px;
-    background-size: 110%;
+    background-size: 125%;
     background-repeat: no-repeat;
     background-position: 60% 15%;
   }
 
-  #hero h4{
+  #hero h4 {
     font-size: 20px;
     padding-bottom: 7px;
   }
 
-  #hero h2{
+  #hero h2 {
     font-size: 40px;
   }
 
-  #hero h1{
+  #hero h1 {
     font-size: 50px;
   }
-    #hero p{
+  #hero p {
     font-size: 20px;
     margin: 10px 0;
   }
@@ -841,11 +854,11 @@ color:#ff0000;
     width: 16%;
   }
 
-  #product1 .pro-container .pro span{
+  #product1 .pro-container .pro span {
     font-size: 16px;
   }
 
-  #product1 .pro-container .pro h5{
+  #product1 .pro-container .pro h5 {
     font-size: 20px;
   }
 
@@ -857,7 +870,7 @@ color:#ff0000;
   #product1 .pro .des h4 {
     font-size: 20px;
   }
-  
+
   #product1 .pro .cart {
     width: 40px;
     height: 40px;
@@ -865,20 +878,20 @@ color:#ff0000;
     font-size: 20px;
   }
 
-  #banner h4{
+  #banner h4 {
     font-size: 23px;
   }
 
-  #banner h2{
+  #banner h2 {
     font-size: 47px;
     padding: 20px 0;
   }
 
-  #banner .normal{
+  #banner .normal {
     font-size: 23px;
   }
 
-  #sm-banner a{
+  #sm-banner a {
     text-decoration: none;
     min-width: 44%;
   }
@@ -887,12 +900,12 @@ color:#ff0000;
     font-size: 20px;
     font-weight: 400;
   }
-  
+
   #sm-banner h2 {
     font-size: 48px;
     font-weight: 600;
   }
-  
+
   #sm-banner span {
     font-size: 10px;
     font-weight: 500;
@@ -902,72 +915,683 @@ color:#ff0000;
     min-width: 28%;
   }
 
-  #banner3 .banner-box h2{
+  #banner3 .banner-box h2 {
     font-size: 17px;
   }
 
-  #banner3 .banner-box h3{
+  #banner3 .banner-box h3 {
     font-size: 15px;
     padding-top: 10px;
   }
 
-  #newsletter h4{
+  #newsletter h4 {
     padding-top: 20px;
     font-size: 23px;
   }
-  
-  #newsletter p{
+
+  #newsletter p {
     font-size: 17px;
   }
 
-  footer p{
+  footer p {
     font-size: 16px;
   }
 
-  footer h4{
+  footer h4 {
     font-size: 20px;
   }
 
-  footer a{
+  footer a {
     font-size: 16px;
   }
 
-  footer .install img{
+  footer .install img {
     position: absolute;
     width: 10%;
     margin: 10px 0 15px 0;
   }
 
-  footer .install .row a:nth-child(1) img{
-    margin-left:105px;
+  footer .install .row a:nth-child(1) img {
+    margin-left: 105px;
     width: 10%;
     top: 80px;
   }
 
-  footer .install .row a:nth-child(2) img{
+  footer .install .row a:nth-child(2) img {
     top: 80px;
   }
 
-  footer .install .install-p2{
+  footer .install .install-p2 {
     margin-top: 40px;
   }
-  
-  footer .install .img-3 img{
+
+  footer .install .img-3 img {
     width: 20%;
     top: 150px;
     margin-top: 5px;
   }
 
-  #newsletter input{
+  #newsletter input {
     height: 2.125rem;
     padding: 0 1em;
     font-size: 13px;
     width: 100%;
   }
-  
-  #newsletter button{
+
+  #newsletter button {
     padding: 0 1.25em;
     font-size: 15px;
   }
+}
+/* (max-width: 799px) and  */
+@media (max-width: 962px) {
+  .section-p1 {
+    padding: 40px 40px;
+  }
+
+  #header {
+    padding: 20px 20px;
+    left: 0;
+  }
+
+  #navbar li a.active::after {
+    content: "";
+    width: 64%;
+    height: 2px;
+    left: 12px;
+}
+
+  #navbar li {
+    padding: 0px 10px;
+  }
+
+  #navbar li a {
+    font-size: 13px;
+  }
+
+  #navbar li a.active {
+    font-size: 17px;
+    transition: 0.2s ease;
+  }
+
+  #hero h4 {
+    padding-bottom: 10px;
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 40px;
+    line-height: 32px;
+  }
+
+  p {
+    font-size: 13px;
+    margin: 0 0 15px 0;
+  }
+
+  #hero h1 {
+    font-size: 40px;
+  }
+
+  #hero {
+    height: 70vh;
+    padding: 0 50px;
+    background-position: top 30% right 40%;
+  }
+
+  #feature {
+    justify-content: center;
+  }
+
+  #feature .fe-box {
+    margin: 15px 15px;
+  }
+
+  #feature .fe-box {
+    padding: 37px 5px;
+  }
+
+  #product1 .pro {
+    min-height: 100px;
+    padding: 10px 10px;
+    margin: 10px 0px;
+  }
+
+  #product1 .pro .des span {
+    font-size: 13px;
+  }
+
+  #product1 .pro .des h5 {
+    padding-top: 5px;
+    font-size: 17px;
+  }
+
+  #product1 .pro-container .des i {
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+  }
+
+  #product1 .pro .des h4 {
+    padding-top: 8px;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  #product1 .pro .cart {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 20px;
+    font-size: 14px;
+    bottom: 13px;
+    right: 7%;
+  }
+
+  #banner h2 {
+    font-size: 30px;
+    padding: 10px 0;
+  }
+
+  #banner h4 {
+    font-size: 16px;
+  }
+
+  button.normal {
+    font-size: 16px;
+    padding: 12px 25px;
+  }
+
+  #sm-banner {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 40px;
+  }
+
+  #sm-banner .banner-box {
+    margin-bottom: 15px;
+  }
+
+  #banner3 {
+    padding: 40px 40px;
+  }
+
+  #banner3 .banner-box {
+    min-width: 30%;
+    height: 34vh;
+    padding: 150px 15px;
+    margin-bottom: 0px;
+  }
+
+  #banner3 .banner-box h2 {
+    font-weight: 500;
+    font-size: 13px;
+  }
+
+  #banner3 .banner-box h3 {
+    padding-top: 15px;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  #newsletter h4 {
+    padding-top: 20px;
+    font-size: 20px;
+  }
+
+  #newsletter p {
+    font-size: 15px;
+  }
+
+  #newsletter input {
+    height: 2rem;
+    padding: 0 0.5em;
+    font-size: 12px;
+    width: 100%;
+  }
+
+  #newsletter button {
+    padding: 0 0.75em;
+    font-size: 13px;
+  }
+
+  footer p {
+    font-size: 15px;
+  }
+
+  footer a {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+
+  footer h4 {
+    font-size: 20px;
+    padding-bottom: 15px;
+  }
+
+  footer .install .row img {
+    width: 40%;
+  }
+}
+
+@media (max-width: 799px) {
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 300px;
+    height: 100vh;
+    background-color: #e3e6f3;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    padding: 80px 0 0 10px;
+    transition: 0.3s ease-in-out;
+  }
+
+  #navbar li {
+    margin-bottom: 25px;
+  }
+
+  #navbar li a {
+    font-size: 18px;
+  }
+
+  #navbar.active {
+    right: 0px;
+  }
+
+  #mobile {
+    display: flex;
+    align-items: center;
+  }
+
+  #mobile i {
+    color: #1a1a1a;
+    font-size: 1rem;
+    padding-left: 20px;
+  }
+
+  #close {
+    display: initial;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: #222;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  #lg-bag {
+    display: none;
+  }
+}
+
+@media (max-width:659px){
+  .section-p1 {
+    padding: 40px 20px;
+  }
+
+  #navbar li a.active::after {
+    left: 9px;
+}
+
+  #navbar li {
+    padding: 0px 8px;
+  }
+
+  #navbar li a {
+    font-size: 17px;
+  }
+
+  #navbar li a.active {
+    font-size: 17px;
+    transition: 0.2s ease;
+  }
+
+  #hero h4 {
+    padding-bottom: 8px;
+    font-size: 16px;
+  }
+
+  h1 {
+    line-height: 40px;
+}
+
+  h2 {
+    font-size: 30px;
+    line-height: 22px;
+  }
+
+  p {
+    font-size: 13px;
+    margin: 0 0 15px 0;
+  }
+
+  #hero h1 {
+    font-size: 30px;
+  }
+
+  #hero {
+    height: 40vh;
+    padding: 0 20px;
+    background-position: top 30% right 30%;
+  }
+
+  #feature .fe-box {
+    padding: 67px 5px;
+    width: 90%;
+    border-radius: 20px;
+  }
+
+  #feature .fe-box h6 {
+    padding: 15px 20px 10px 20px;
+    border-radius: 20px;
+    font-size: 35px;
+}
+
+#product1 .pro {
+  width: 48%;
+  min-height: 250px;
+  padding: 16px 20px;
+  border-radius: 25px;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+  margin: 15px 0;
+}
+
+  #product1 .pro .cart {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 35px;
+    font-size: 18px;
+    bottom: 15px;
+    right: 10%;
+  }
+
+  #banner{
+    height: 20vh;
+    margin-bottom: 0;
+  }
+
+  #banner h2 {
+    font-size: 25px;
+    padding: 10px 0;
+  }
+
+  #sm-banner h4 {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#sm-banner h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+  #sm-banner {
+    padding: 0 20px;
+  }
+
+  #sm-banner .banner-box {
+    margin-bottom: 15px;
+    height: 30vh;
+  }
+
+  #banner3 {
+    padding: 40px 20px;
+  }
+
+  #banner3 .banner-box {
+    padding: 10px;
+  }
+
+  #banner3 .banner-box h2 {
+    font-weight: 300;
+    font-size: 10px;
+  }
+
+  #banner3 .banner-box h3 {
+    padding: 0px;
+    font-weight: 500;
+    font-size: 10px;
+  }
+
+  #newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("img/banner/b14.png");
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #041e42;
+    position: relative;
+    height: 20vh;
+}
+
+  #newsletter h4 {
+    position: absolute;
+    top: -0px;
+    left: 200px;
+  }
+
+  #newsletter p {
+    font-size: 15px;
+    position: absolute;
+    top: 60px;
+    left:120px
+  }
+
+}
+
+@media (max-width:420px){
+  .section-p1 {
+    padding: 40px 20px;
+  }
+
+  #header {
+    padding: 10px 10px;
+    left: 0;
+}
+
+#header img{
+  width: 50%;
+}
+
+  #hero h4 {
+    padding-bottom: 8px;
+    font-size: 10px;
+  }
+
+  h1 {
+    line-height: 20px;
+}
+
+  h2 {
+    font-size: 20px;
+    line-height: 10px;
+  }
+
+  #hero h1 {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  
+  #feature .fe-box {
+    padding: 30px 5px;
+    width: 90%;
+    border-radius: 15px;
+  }
+
+  #feature .fe-box h6 {
+    padding: 15px 20px 10px 20px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+p {
+  font-size: 13px;
+  margin: 15px 0px 0px;
+}
+
+#product1 .pro {
+  width: 48%;
+  min-height: 200px;
+  padding: 5px 7px;
+  border-radius: 10px;
+  margin: 15px 0;
+}
+
+#product1 .pro img {
+  border-radius: 10px;
+}
+
+#product1 .pro-container .des i {
+  font-size: 7px;
+  padding: 0;
+  margin: 0;
+}
+
+  #product1 .pro .cart {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 20px;
+    font-size: 12px;
+    bottom: 10px;
+    right: 5%;
+  }
+
+  #banner{
+    height: 20vh;
+    margin-bottom: 0;
+  }
+
+  #banner h2 {
+    font-size: 15px;
+    padding: 10px 0;
+  }
+
+  #banner h4 {
+    font-size: 10px;
+}
+
+#banner button.normal {
+  font-size: 10px;
+  padding: 7px 15px;
+}
+
+
+#sm-banner {
+  padding: 0 20px;
+}
+
+#sm-banner .banner-box {
+  margin-bottom: 15px;
+  height: 20vh;
+  padding: 50px 15px;
+}
+
+  #sm-banner h4 {
+    font-size: 10px;
+    font-weight: 200;
+}
+
+#sm-banner h2 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#sm-banner span{
+  font-size: 10px;
+  font-weight: 200;
+}
+
+#sm-banner button{
+  font-size: 10px;
+  font-weight: 200;
+  padding: 5px;
+}
+
+  #banner3 {
+    padding: 40px 10px;
+    height: 40vh;
+  }
+
+  #banner3 .banner-box {
+    padding: 4px;
+  }
+
+  #banner3 .banner-box h2 {
+    font-weight: 200;
+    font-size: 7px;
+  }
+
+  #banner3 .banner-box h3 {
+    padding: 0px;
+    font-weight: 200;
+    font-size: 5px;
+  }
+
+  #newsletter {
+    height: 20vh;
+}
+
+  #newsletter h4 {
+    font-size: 5px;
+    position: absolute;
+    top: -0px;
+    left: 42%;
+  }
+
+  #newsletter p {
+    margin-top: 0px;
+    font-size: 7px;
+    position: absolute;
+    top: 40px;
+    left:25%;
+  }
+
+  #newsletter .form {
+    display: flex;
+    width: 70%;
+  }
+
+  #newsletter input {
+    height: 1rem;
+    padding: 0 1.5em;
+    font-size: 7px;
+    width: 100%;
+}
+
+#newsletter button {
+  padding: 0 1.75em;
+  font-size: 5px;
+}
+
+footer h4 {
+  font-size: 15px;
+  padding-bottom: 12px;
+}
+
+footer p {
+  margin-bottom: 5px;
+  font-size: 10px;
+}
+
+footer a {
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+
+footer .install .row img:nth-child(1) {
+  width: 30%;
+}
+
+footer .install img {
+  width: 50%;
+  margin: 10px 0 15px 0;
+}
 
 }
