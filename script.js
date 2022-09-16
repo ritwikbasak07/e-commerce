@@ -34,16 +34,15 @@ for (let l = 0; l < product.length; l++) {
     product[l].onclick = ()=>{
         let product_price = document.getElementsByTagName("h4");
         let product_name = document.getElementsByTagName("h5");
-        a = product_price[0].innerText;
         window.open("sproduct.html","_blank");
-        
+        window.addEventListener('load', function () {
+            console.log(document.querySelectorAll(".single-pro-details h2")[0].innerText = a);
+          })
     }
 
 }
 }
 
 
-window.addEventListener('load', function () {
-    console.log(document.querySelectorAll(".single-pro-details h2")[0].innerText = a);
-  })
+
 // console.log(document.getElementById("price_product").innerText);
