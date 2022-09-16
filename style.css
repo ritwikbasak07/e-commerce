@@ -1886,6 +1886,12 @@ footer .follow a:hover:nth-child(5) i {
 }
 
 @media (max-width:414px){
+  
+  #header {
+    padding: 10px 20px;
+}
+
+
   #prodetails .single-pro-details h4 {
     padding: 10px 0px 20px 0;
     font-size: 15px;
@@ -1915,13 +1921,14 @@ footer .follow a:hover:nth-child(5) i {
   padding: 7px 15px;
   border-radius: 7px;
 }
+
+#newsletter p {
+  font-size: 5.8px;
+}
 }
 
 @media (max-width:290px){
 
-  #header {
-    padding: 10px 20px;
-}
 
 
   #prodetails {
