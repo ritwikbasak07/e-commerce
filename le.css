@@ -517,17 +517,17 @@ footer .logo {
 }
 
 footer h4 {
-  font-size: 25px;
+  font-size: 27px;
   padding-bottom: 20px;
 }
 
 footer p {
-  font-size: 21px;
+  font-size: 23px;
   margin: 0 0 8px 0;
 }
 
 footer a {
-  font-size: 20px;
+  font-size: 23px;
   text-decoration: none;
   color: #222;
   margin-bottom: 10px;
@@ -1815,6 +1815,8 @@ footer .follow a:hover:nth-child(5) i {
     padding-top: 30px;
   }
 
+  
+
 }
 
 @media (max-width:1100px){
@@ -1971,146 +1973,4 @@ footer .follow a:hover:nth-child(5) i {
   margin-top: 10px;
   font-size: 5px;
 }
-}
-
-/* Blog Page */
-
-#page-header.blog-header{
-  background-image: url("img/banner/b19.jpg");
-}
-
-#blog{
-  padding: 150px 100px 0px 150px;
-}
-
-#blog .blog-box{
-  position: relative;
-  display: flex;
-  align-items: center;
-  width: 100%;
-  padding-bottom: 100px;
-}
-
-#blog .blog-img{
-  width: 50%;
-  margin-right: 40px;
-}
-
-#blog img{
-  width: 100%;
-  height: 400px;
-  object-fit: cover;
-}
-
-#blog .blog-details{
-  width: 45%;
-}
-
-#blog .reverse{
-  
-  margin-right: 45px;
-}
-
-#blog .reverse-div{
-  margin-left: 50px;
-}
-
-#blog .blog-details a{
-  position: relative;
-  text-decoration: none;
-  font-size: 16px;
-  color: #222;
-  font-weight: 700;
-  transition: 0.3s ease;
-}
-
-#blog .blog-details a .arrow{
-  font-size: 20px;
-  position: absolute;
-  top: -2.5px;
-  left: 130px;
-}
-
-#blog .blog-details a:hover{
-  color: #088178;
-}
-
-#blog .blog-box h1{
-  position: absolute;
-  top: -44px;
-  left: 0;
-  font-size: 80px;
-  font-weight: 700;
-  color: #c9cbce;
-  z-index: -1;
-}
-
-#blog .reverse-div h1{
-  left: 75%;
-}
-
-@media (max-width:1024px){
-  #blog{
-    padding: 150px 75px 0px 75px;
-  }
-
-  #blog .reverse-div h1{
-    left: 70%;
-  }
-}
-
-@media (max-width:913px){
-  #blog{
-    padding: 150px 50px 0px 50px;
-  }
-
-  #blog .reverse-div h1{
-    font-size: 60px;
-    left: 70%;
-  }
-
-  
-  #blog  .blog-box h1{
-    font-size: 60px;
-  }
-
-  #blog .reverse-div h1{
-    left: 70%;
-  }
-
-}
-
-@media (max-width:767px){
-
-  #blog{
-    padding: 50px 0px 0px 0px;
-  }
-
-
-  #blog .blog-box{
-    flex-direction: column;
-  }
-
-  #blog .blog-img{
-    width: 90%;
-    margin-right: 0;
-  }
-
-  #blog .blog-img img{
-    width: 100%;
-    height: 200px;
-  }
-
-  #blog .reverse-div {
-    margin-left: 0px;
-}
-
-  #blog .blog-box h1{
-    font-size: 30px;
-  }
-
-  #blog .reverse-div h1{
-    left: 20%;
-  }
-
 }
